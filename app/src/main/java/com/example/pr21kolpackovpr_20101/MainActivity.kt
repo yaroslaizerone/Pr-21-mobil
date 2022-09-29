@@ -36,6 +36,7 @@ class MainActivity : AppCompatActivity()
         slesh_btn.setOnClickListener{setTextFields("/")}
         bracket_l_btn.setOnClickListener{setTextFields("(")}
         bracket_r_btn.setOnClickListener{setTextFields(")")}
+        point_btn.setOnClickListener{setTextFields(".")}
 
         //кнопки отсичтки
         clear_btn.setOnClickListener{
